@@ -2,7 +2,8 @@ import React from 'react';
 import './App.css';
 import Counter from './components/counterApp/counter';
 import Task from './components/taskApp/Task';
-import Http from './components/http/http';
+import Https from './components/http/HttpApi';
+
 
 
 function App() {
@@ -10,7 +11,7 @@ function App() {
     <div className="App">
       <Counter/>
       <Task/>
-      <Http/>
+      <Https/>
     </div>
   );
 }
