@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
 
 const StudentForm = () => {
     //? Manage state //
@@ -30,7 +30,7 @@ const StudentForm = () => {
             course,
             content,
         })
-    
+
     }
 
     return (
@@ -65,4 +65,4 @@ const StudentForm = () => {
     )
 }
 
-export default StudentForm
+export default StudentForm;
