@@ -2,8 +2,28 @@
     background-color:#faeeee;
     border-radius: 20px;	
 }
-.button{
-    margin: 8px 12px;
-    padding: 10px 15px;
-    
+.button {
+	box-shadow: 0px 1px 0px 0px #f0f7fa;
+	background:linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
+	background-color:#33bdef;
+	border-radius:6px;
+	border:1px solid #057fd0;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+    margin: 6px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #5b6178;
+}
+.button:hover {
+	background:linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+	background-color:#019ad2;
+}
+.button:active {
+	position:relative;
+	top:1px;
 }
